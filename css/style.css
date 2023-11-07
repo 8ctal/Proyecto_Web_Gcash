@@ -1,0 +1,235 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the form fields */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the Google sign in button */
+.google-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* Style the Google icon */
+.google-icon {
+    width: 20px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+}
+
+form h2 {
+    margin-top: 0;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #757575;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.google-icon {
+    margin-right: 10px;
+}
+
+#login-btn,
+#signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#signup-btn {
+    background-color: #008CBA;
+}
+
+#form-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#form-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+#form-container form input[type="submit"],
+#form-container form button.google-btn {
+    margin-top: 20px;
+    align-self: center;
+}
+
+#login-form,
+#signup-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* BACKGROUND COLOR */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #333;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+}
